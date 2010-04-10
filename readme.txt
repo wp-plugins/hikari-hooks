@@ -4,7 +4,7 @@ Donate link: http://Hikari.ws/wordpress/#donate
 Tags: debug, troubleshoot, hook, action, filter, role, capability, window, draggable, wp_view_type.php, admin, drag, javascript, admin, tool, developer
 Requires at least: 2.8.0
 Tested up to: 2.9.2
-Stable tag: 0.01.05
+Stable tag: 0.01.06
 
 Creates a draggable window with informations about all functions hooked to Wordpress actions and filters.
 
@@ -109,6 +109,9 @@ Just contact me adding a comment in the plugin page and I'll add it. Any feature
 
 
 == Changelog ==
+
+= 0.01.06 =
+* Fixed a typo that blocked the plugin to work in Unix systems.
 
 = 0.01 =
 * First public release.

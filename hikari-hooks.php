@@ -3,7 +3,7 @@
 Plugin Name: Hikari Hooks Troubleshooter
 Plugin URI: http://Hikari.ws/hooks-troubleshooter/
 Description: Creates a draggable window with informations about all functions hooked to Wordpress actions and filters, so that we can follow what is being run on each hook.
-Version: 0.01.05
+Version: 0.01.06
 Author: Hikari
 Author URI: http://Hikari.ws
 */

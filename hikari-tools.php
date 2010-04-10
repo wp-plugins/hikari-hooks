@@ -5,7 +5,7 @@
 	
 	It's meant to be a virtual class, from which I extend my classes and  use its code.
 
-	version 0.15 20100402
+	version 0.17 20100410
 */
 
 
@@ -58,8 +58,8 @@ class HkHook_HkTools{
 
 	public static function replace_accents($string){
 	  return str_replace(
-			array('à','á','â','ã','ä', 'ç', 'è','é','ê','ë', 'ì','í','î','ï', 'ñ', 'ò','ó','ô','õ','ö', 'ù','ú','û','ü', 'ý','ÿ',
-				'À','Á','Â','Ã','Ä', 'Ç', 'È','É','Ê','Ë', 'Ì','Í','Î','Ï', 'Ñ', 'Ò','Ó','Ô','Õ','Ö', 'Ù','Ú','Û','Ü', 'Ý',
+			array('Ã ','Ã¡','Ã¢','Ã£','Ã¤', 'Ã§', 'Ã¨','Ã©','Ãª','Ã«', 'Ã¬','Ã­','Ã®','Ã¯', 'Ã±', 'Ã²','Ã³','Ã´','Ãµ','Ã¶', 'Ã¹','Ãº','Ã»','Ã¼', 'Ã½','Ã¿',
+				'Ã€','Ã','Ã‚','Ãƒ','Ã„', 'Ã‡', 'Ãˆ','Ã‰','ÃŠ','Ã‹', 'ÃŒ','Ã','ÃŽ','Ã', 'Ã‘', 'Ã’','Ã“','Ã”','Ã•','Ã–', 'Ã™','Ãš','Ã›','Ãœ', 'Ã',
 				'?', '!', ' '),
 			array('a','a','a','a','a', 'c', 'e','e','e','e', 'i','i','i','i', 'n', 'o','o','o','o','o', 'u','u','u','u', 'y','y',
 				'A','A','A','A','A', 'C', 'E','E','E','E', 'I','I','I','I', 'N', 'O','O','O','O','O', 'U','U','U','U', 'Y',
@@ -274,7 +274,7 @@ $op_structure = array(
 	
 	
 	public function __construct(){
-		require_once ABSPATH.'\wp-admin\includes\plugin.php';
+		require_once ABSPATH.'/wp-admin/includes/plugin.php';
 		$pluginInfo = get_plugin_data($this->pluginfile);
 	
 		$this->optionspageName = $pluginInfo['Name'];
