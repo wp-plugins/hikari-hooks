@@ -1,0 +1,76 @@
+.DW_window{
+	border-top: 1px solid #000000;
+	border-right: 2px solid #666666;
+	border-bottom: 2px solid #000000;
+	border-left: 1px solid #999999;
+	width: 550px;
+	position: absolute;
+	z-index: 1000;
+	top: 100px;
+	left: 50px;
+	cursor: default;
+	opacity: 1;
+}
+
+.DW_window .titlebar{
+	width: 100%;
+	height: 25px;
+	background: #666666;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid black;
+	border-left: 1px solid #999999;
+}
+
+.DW_window .titlebar h2{
+	font: 12px Verdana, Arial, Sans-serif;
+	color: #ffffff;
+	padding: 5px 5px;
+	margin: 0px;
+	float: left;
+}
+
+.DW_window .titlebar a{
+	font: 12px Verdana, Arial, Sans-serif;
+	color: #ffffff;
+	padding: 1px 4px;
+	margin: 4px 2px 0px 1px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #000000;
+	float: right;
+}
+
+.DW_window .content{
+	padding: 0 .5em;
+	background: #f1f1f1;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: justify;
+}
+
+.DW_window .content p{
+	font: 12px Verdana, Arial, Sans-serif;
+	color: #333333;
+	margin-bottom: 5px;
+}
+.DW_window .content ol li{
+	list-style: decimal;
+	margin: 1em 0 .5em 15px;
+}
+.DW_window .content ul li{
+	list-style: disc;
+	margin: .5em 0 .5em 15px;
+}
+.DW_window .content ul ul li{
+	list-style: circle;
+}
+
+.DW_window .statusbar{
+	font: 10px Verdana, Arial, Sans-serif;
+	color: #999999;
+	padding: 1px 5px;
+	background: #d9d9d9;
+	border-top: 1px solid #666666;
+	text-align: right;
+}
